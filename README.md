@@ -13,7 +13,7 @@ Launch shortcut TagEditor.exe <br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/dep800.gif)
 
 &nbsp; Insert your text or open a text file and press Start tagging (or choose one of the options in Menu/Tools). Choose types of annotation and labels like in the screenshot below and press Ok. <br/>
-![alt text](https://raw.githubusercontent.com/GitDimma/Tag-Editor/master/pics/select.png)<br/>
+![alt text](https://github.com/d5555/TagEditor/blob/master/pics/select.png)<br/>
 Select a tag in TAG SET pannel then select a word to assign the tag. Select a head tag to assign dependency if you are working in the Dependencies window .<br/>
 &nbsp; Right-click on a word to edit, delete, insert word, merge or split sentences. 
 To merge sentences right-click on the first word of sentence. It is checked as **Sentence start**. Uncheck it and the sentence will merge with the previous sentence. <br/>
