@@ -4,7 +4,7 @@ TagEditor is a desktop application (tested on _Windows 10, 64-bit_) designed to 
 With TagEditor you can label **dependencies, parts of speech, Named entities, text categories and Coreference resolution**.
 
 ### Installation
-
+No installation required.
 Download and unpack(extract) [**TagEditorSFX.exe**](https://github.com/d5555/TagEditor/raw/master/TagEditorSFX.exe)<br/>
 Launch shortcut TagEditor.exe <br/>
 
