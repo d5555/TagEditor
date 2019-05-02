@@ -35,7 +35,7 @@ To unlink a span from the entity , select it and then click on it again. It will
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/coref_annot.png)
 
 **Dependencies**<br/>
-Select a tag in TAG SET pannel then select a word to assign the tag. Click on another word(token) to assign a head tag.
+Select a tag in TAG SET pannel then click on a word in the editor window to assign the tag. Click on another word(token) to assign a head tag. Click on the word again to remove the tag.
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/dep.png)
 
 **How to use Text Categories**<br/>
