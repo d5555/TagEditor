@@ -18,7 +18,7 @@ Select a tag in TAG SET pannel then select a word to assign the tag. Select a he
 &nbsp; Right-click on a word to edit, delete, insert word, merge or split sentences. 
 To merge sentences right-click on the first word of sentence. It is checked as **Sentence start**. Uncheck it and the sentence will merge with the previous sentence. <br/>
 &nbsp; To delete all newline characters and extra whitespaces in the text, select the tab **Words** and press **Remove Whitespaces**.<br/> 
-Press button **Create DATA** to create data in "simple training style" or JSON.<br/>
+Press button **Create DATA** to create training data in "simple training style" or JSON. You can save it in a simple text format or as a python file...<br/>
 **Save project** for future editing. **Load project** to continue where you left.
 
 **Co-reference tagger**<br/>
