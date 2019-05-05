@@ -53,6 +53,8 @@ First click on a label in the Tag Set pannel then select text in the main window
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/ner.png)
 **POS tags**<br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/pos_pic.png)
+
+#### *You have any suggestions on improving the program, adding extra feature, feel free to leave a comment or email at gitprojects5@gmail.com
 <!---**************
 ### Extended version
 Need help, found a bug or you would like get the extended version? [**New issue**](https://github.com/d5555/TagEditor/issues/new) or contact us at gitprojects5@gmail.com
