@@ -6,7 +6,7 @@ With TagEditor you can label **dependencies, parts of speech, Named entities, te
 ### Installation
 No installation required.<br/>
 Download and unpack(extract) [**TagEditor_SFX.exe**](https://github.com/d5555/TagEditor/raw/master/TagEditor_SFX.exe)<br/>
-Launch shortcut TagEditor.exe  
+Run 'TagEditor.exe' in the main folder.
 
 ### Usage
 
