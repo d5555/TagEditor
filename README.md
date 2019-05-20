@@ -23,6 +23,7 @@ Press button **Create DATA** to create training data in "simple training style" 
 
 Try **[NeuralGym](https://github.com/d5555/NeuralGym)** to train spaCy model with your training data. 
 
+
 **Co-reference tagger**<br/>
 &nbsp;Coreference annotation is according to PreCo  'Data Format'.<br/>Compatible with **NeuralCoref 4.0**. To use NeuralCoref for annotating select "Enable NeuralCoref" after 'Start tagging'. Set parameter 'greedyness' 0,55.
 
