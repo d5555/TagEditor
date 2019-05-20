@@ -34,6 +34,7 @@ https://preschool-lab.github.io/PreCo/<br/>
 &nbsp;&nbsp;Select in the editor window a word or a span of words. It will be a singleton(single entity) with no connection to other entities and framed with dash line. Then select another span. Everytime you select an entity it is highlighted by green color frame. While it is in selected state click on another entity and they will be linked together and highligted by same color and get same coref number (a num in the right corner of frame). That simple! <br/>
 To deselect just click on empty space in the main window.<br/>
 To unlink a span from the entity , select it and then click on it again. It will turn into singleton. You can also use the table on the right side. If the text is long and you don't want to scroll it just click on an entity in the table to get spans linked. Entities which are not singletons are added to the table automatically. Though you can add singletons too. Entity color can be changed except for singleton. <br/>
+You can load data from PreCo dataset to TagEditor directly. Unzip  PreCo dataset , run tagEditor and select File->Load PreCO/Coref <br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/corefpic.png)
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/coref_annot.png)
 
