@@ -21,6 +21,9 @@ To merge sentences right-click on the first word of sentence. It is checked as *
 Press button **Create DATA** to create training data in "simple training style" or JSON. You can save it in a simple text format or as a python file...<br/>
 **Save project** for future editing. **Load project** to continue where you left.
 
+>Try **[NeuralGym](https://github.com/d5555/NeuralGym)** to train spaCy model with your training data. 
+
+
 **Co-reference tagger**<br/>
 &nbsp;Coreference annotation is according to PreCo  'Data Format'.<br/>Compatible with **NeuralCoref 4.0**. To use NeuralCoref for annotating select "Enable NeuralCoref" after 'Start tagging'. Set parameter 'greedyness' 0,55.
 
@@ -54,7 +57,7 @@ First click on a label in the Tag Set pannel then select text in the main window
 **POS tags**<br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/pos_pic.png)
 
-
+_Try **[NeuralGym](https://github.com/d5555/NeuralGym)** to train spaCy model with your training data._ 
 #### *You have any suggestions on improving the program, adding extra feature, feel free to leave a comment or email at gitprojects5@gmail.com
 <!---**************
 ### Extended version
