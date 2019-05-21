@@ -59,7 +59,7 @@ First click on a label in the Tag Set pannel then select text in the main window
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/pos_pic.png)
 
 _Try **[NeuralGym](https://github.com/d5555/NeuralGym)** to train spaCy model with your training data._ <br/>
-_You can use your pretrained models with the full version of TagEditor _
+>To use your pretrained models with TagEditor or other spacy models,  acquire the full version of TagEditor.
 #### *You have any suggestions on improving the program, adding extra feature, feel free to leave a comment or email at gitprojects5@gmail.com
 <!---**************
 ### Extended version
