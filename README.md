@@ -27,8 +27,8 @@ Press button **Create DATA** to create training data in "simple training style" 
 **Co-reference tagger**<br/>
 &nbsp;Coreference annotation is according to PreCo  'Data Format'.<br/>Compatible with **NeuralCoref 4.0**. To use NeuralCoref for annotating select "Enable NeuralCoref" after 'Start tagging'. Set parameter 'greedyness' 0,55.
 
-https://arxiv.org/abs/1810.09807<br/>
 https://preschool-lab.github.io/PreCo/<br/>
+https://arxiv.org/abs/1810.09807<br/>
 "sentences" - is a list of sentences. Each sentence is a list of tokens. Each token is a string, which can be a word or a punctuation mark. <br/>
 "mention_clusters" - is a list of mention clusters. Each mention cluster is a list of mentions. Each mention is a tuple of integers [sentence_idx, begin_idx, end_idx]. Sentence_idx is the index of the sentence of the mention. Begin_idx is the index of the first token of the mention in the sentence. End_index is the index of the last token of the mention in the sentence plus one. All indices are zero-based.<br/>
 &nbsp;&nbsp;Select in the editor window a word or a span of words. It will be a singleton(single entity) with no connection to other entities and framed with dash line. Then select another span. Everytime you select an entity it is highlighted by green color frame. While it is in selected state click on another entity and they will be linked together and highligted by same color and get same coref number (a num in the right corner of frame). That simple! <br/>
