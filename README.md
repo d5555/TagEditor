@@ -27,13 +27,14 @@ Press button **Create DATA** to create training data in "simple training style" 
 **Co-reference tagger**<br/>
 &nbsp;Coreference annotation is according to PreCo  'Data Format'.<br/>Compatible with **NeuralCoref 4.0**. To use NeuralCoref for annotating select "Enable NeuralCoref" after 'Start tagging'. Set parameter 'greedyness' 0,55.
 
-https://arxiv.org/abs/1810.09807<br/>
 https://preschool-lab.github.io/PreCo/<br/>
+https://arxiv.org/abs/1810.09807<br/>
 "sentences" - is a list of sentences. Each sentence is a list of tokens. Each token is a string, which can be a word or a punctuation mark. <br/>
 "mention_clusters" - is a list of mention clusters. Each mention cluster is a list of mentions. Each mention is a tuple of integers [sentence_idx, begin_idx, end_idx]. Sentence_idx is the index of the sentence of the mention. Begin_idx is the index of the first token of the mention in the sentence. End_index is the index of the last token of the mention in the sentence plus one. All indices are zero-based.<br/>
 &nbsp;&nbsp;Select in the editor window a word or a span of words. It will be a singleton(single entity) with no connection to other entities and framed with dash line. Then select another span. Everytime you select an entity it is highlighted by green color frame. While it is in selected state click on another entity and they will be linked together and highligted by same color and get same coref number (a num in the right corner of frame). That simple! <br/>
 To deselect just click on empty space in the main window.<br/>
 To unlink a span from the entity , select it and then click on it again. It will turn into singleton. You can also use the table on the right side. If the text is long and you don't want to scroll it just click on an entity in the table to get spans linked. Entities which are not singletons are added to the table automatically. Though you can add singletons too. Entity color can be changed except for singleton. <br/>
+You can load data from PreCo dataset to TagEditor directly. Unzip  PreCo dataset , run tagEditor and select menu File->Load PreCO/Coref->(select file) <br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/corefpic.png)
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/coref_annot.png)
 
@@ -48,7 +49,7 @@ Use check button **Assign/unassign all** to assign/unassign all labels to all se
 For demo purporses the text classifier of this tool was trained on the IMDB dataset with labels 'POSITIVE NEGATIVE'<br/>
 https://spacy.io/usage/training#textcat<br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/cats.png)
-'Spans classification mode' allows **multiple intercrossing labels**.  Can be used as an **all-purporse text tagger** with the data format (index of first token, index of last token+1, label name). Zero based.<br/>
+'Spans classification mode' allows **multiple overlapping labels**.  Can be used as an **all-purporse text tagger** with the data format (index of first token, index of last token+1, label name). Zero based.<br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/spansclass.png)
 
 **Named Entities**<br/>
@@ -57,7 +58,8 @@ First click on a label in the Tag Set pannel then select text in the main window
 **POS tags**<br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/pos_pic.png)
 
-_Try **[NeuralGym](https://github.com/d5555/NeuralGym)** to train spaCy model with your training data._ 
+_Try **[NeuralGym](https://github.com/d5555/NeuralGym)** to train spaCy model with your training data._ <br/>
+>To use your pretrained models with TagEditor or other spacy models,  acquire the full version of TagEditor.
 #### *You have any suggestions on improving the program, adding extra feature, feel free to leave a comment or email at gitprojects5@gmail.com
 <!---**************
 ### Extended version
