@@ -21,6 +21,9 @@ To merge sentences right-click on the first word of sentence. It is checked as *
 Press button **Create DATA** to create training data in "simple training style" or JSON. You can save it in a simple text format or as a python file...<br/>
 **Save project** for future editing. **Load project** to continue where you left.
 
+If you want to choose a different from English language: 
+![alt text](https://github.com/d5555/TagEditor/blob/master/pics/Menu_Mod.png)
+
 >Try **[NeuralGym](https://github.com/d5555/NeuralGym)** to train spaCy model with your training data. 
 
 
