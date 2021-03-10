@@ -21,7 +21,7 @@ To merge sentences right-click on the first word of sentence. It is checked as *
 Press button **Create DATA** to create training data in "simple training style" or JSON. You can save it in a simple text format or as a python file...<br/>
 **Save project** for future editing. **Load project** to continue where you left.
 
-If you don't have a pretrained model for a given language, select the language from the list for a proper tokenization: 
+If you don't have a pretrained model for a given language, select the language from the list for proper tokenization: 
 
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/Menu_Mod.png)
 
