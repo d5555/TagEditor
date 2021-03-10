@@ -27,6 +27,16 @@ If you don't have a pretrained model for a given language, select the language f
 
 >Try **[NeuralGym](https://github.com/d5555/NeuralGym)** to train spaCy model with your training data. 
 
+**Named Entities**<br/>
+First click on a label in the Tag Set pannel then select text in the main window. To delete assigned label from text just click on it. Create output data with char/token offset or BILUO / IOB scheme.
+![alt text](https://github.com/d5555/TagEditor/blob/master/pics/ner.png)
+
+**POS tags**<br/>
+![alt text](https://github.com/d5555/TagEditor/blob/master/pics/pos_pic.png)
+
+**Dependencies**<br/>
+Select a tag in TAG SET pannel then click on a word in the editor window to assign the tag. Click on another word(token) to assign a head tag. Click on the word again to remove the tag.
+![alt text](https://github.com/d5555/TagEditor/blob/master/pics/dep.png)
 
 **Co-reference tagger**<br/>
 &nbsp;Coreference annotation is according to PreCo  'Data Format'.<br/>Dataset can be downloaded from here: https://github.com/d5555/Coreference-dataset<br/>Compatible with **NeuralCoref 4.0**. To use NeuralCoref for annotating select "Enable NeuralCoref" after 'Start tagging'. Set parameter 'greedyness' 0,55.
@@ -42,10 +52,6 @@ You can load data from PreCo dataset to TagEditor directly. Unzip  PreCo dataset
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/corefpic.png)
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/coref_annot.png)
 
-**Dependencies**<br/>
-Select a tag in TAG SET pannel then click on a word in the editor window to assign the tag. Click on another word(token) to assign a head tag. Click on the word again to remove the tag.
-![alt text](https://github.com/d5555/TagEditor/blob/master/pics/dep.png)
-
 **How to use Text Categories**<br/>
 In the Text Categories you can assign labels to sentences (default mode) or to spans (see below).<br/>
 &nbsp; Select the score in the TAG SET pannel - True or False(i.e 1.0 or 0.0) and select a category label. Go to the editor window and click on sentence. Category and score will be added. You can easily **switch the score True/False** by just clicking on the score label in editor window. Supports multiple, non-mutually exclusive labels.<br/>
@@ -55,12 +61,6 @@ https://spacy.io/usage/training#textcat<br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/cats.png)
 'Spans classification mode' allows **multiple overlapping labels**.  Can be used as an **all-purporse text tagger** with the data format (index of first token, index of last token+1, label name). Zero based.<br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/spansclass.png)
-
-**Named Entities**<br/>
-First click on a label in the Tag Set pannel then select text in the main window. To delete assigned label from text just click on it.
-![alt text](https://github.com/d5555/TagEditor/blob/master/pics/ner.png)
-**POS tags**<br/>
-![alt text](https://github.com/d5555/TagEditor/blob/master/pics/pos_pic.png)
 
 _Try **[NeuralGym](https://github.com/d5555/NeuralGym)** to train spaCy model with your training data._ <br/>
 >To use your pretrained models with TagEditor or other spacy models,  acquire the full version of TagEditor.
