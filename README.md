@@ -33,8 +33,7 @@ First click on a label in the Tag Set pannel then select text in the main window
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/ner.png) 
 
 
-Create dataset and save into txt or json file:
-
+Create dataset and save into txt or json file:<br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/create_data.png)
 
 **POS tags**<br/>
