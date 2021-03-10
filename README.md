@@ -1,4 +1,4 @@
-### TagEditor(v2.3.2) annotation tool
+### TagEditor(v3.0.3) annotation tool
 
 TagEditor is a desktop application (tested on _Windows 10, 64-bit_) designed to annotate text for training with spaCy library.<br/>
 With TagEditor you can label **dependencies, parts of speech, Named entities, text categories and Coreference resolution**.
@@ -29,7 +29,7 @@ If you don't have a pretrained model for a given language, select the language f
 
 
 **Co-reference tagger**<br/>
-&nbsp;Coreference annotation is according to PreCo  'Data Format'.<br/>Compatible with **NeuralCoref 4.0**. To use NeuralCoref for annotating select "Enable NeuralCoref" after 'Start tagging'. Set parameter 'greedyness' 0,55.
+&nbsp;Coreference annotation is according to PreCo  'Data Format'.<br/>Dataset can be downloaded from here: https://github.com/d5555/Coreference-dataset<br/>Compatible with **NeuralCoref 4.0**. To use NeuralCoref for annotating select "Enable NeuralCoref" after 'Start tagging'. Set parameter 'greedyness' 0,55.
 
 https://preschool-lab.github.io/PreCo/<br/>
 https://arxiv.org/abs/1810.09807<br/>
