@@ -37,6 +37,7 @@ Create dataset with selected items and save into txt or json file or print it on
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/create_data.png)
 
 **POS tags**<br/>
+In this window you can edit POS tags (fine-grained) and also view coarse-grained pos tags and morphs.<br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/pos_pic.png)
 
 **Dependencies**<br/>
