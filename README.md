@@ -77,8 +77,8 @@ https://spacy.io/usage/training#textcat<br/>
 'Spans classification mode' allows **multiple overlapping labels**.  Can be used as an **all-purporse text tagger** with the data format (index of first token, index of last token+1, label name). Zero based.<br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/spansclass.png)
 
-_Try **[NeuralGym](https://github.com/d5555/NeuralGym)** to train spaCy model with your training data._ <br/>
->To use your pretrained models with TagEditor or other spacy models,  acquire the full version of TagEditor.
+<!--- _Try **[NeuralGym](https://github.com/d5555/NeuralGym)** to train spaCy model with your training data._ <br/>  --->
+>To use your pretrained models with TagEditor or other spacy models,  acquire the full version of TagEditor. Please contact gitprojects5@gmail.com 
 #### *You have any suggestions on improving the program, adding extra feature, feel free to leave a comment or email at gitprojects5@gmail.com
 <!---**************
 ### Extended version
