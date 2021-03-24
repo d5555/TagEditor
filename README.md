@@ -21,6 +21,8 @@ Select a tag in **TAG SET pannel** then select a word to assign the tag. Select 
 &nbsp; To edit Doc or Tokens  - use Right-click on any word. It allows to  edit, delete, insert words or sentences, also merge or split sentences. 
 To merge sentences right-click on the first word of sentence. It is checked as **Sentence start**. Uncheck it and the sentence will merge with the previous sentence.<br/> &nbsp; To assign new paragraph use context menu or click on the sentence number on the left side. Or use button **Assign paragraphs** in the tab **Words** to assign paragraphs after new line symbols '\n' in text. <br/>
 &nbsp; To delete all newline characters and extra whitespaces in the text, select the tab **Words** and press **Remove Whitespaces**.<br/> 
+![alt text](https://github.com/d5555/TagEditor/blob/master/pics/words.png)
+
 Press button **Create DATA** to create training data in "simple training style" or JSON. You can save it in text, json or spacy format ...<br/>
 **Save project** for future editing. **Load project** to continue where you left.
 
