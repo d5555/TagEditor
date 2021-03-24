@@ -70,6 +70,8 @@ Use check button **Assign/unassign all** to assign/unassign all labels to all se
 For demo purporses the text classifier of this tool was trained on the IMDB dataset with labels 'POSITIVE NEGATIVE'<br/>
 https://spacy.io/usage/training#textcat<br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/cats.png)
+![alt text](https://github.com/d5555/TagEditor/blob/master/pics/cat_data.png)
+
 'Spans classification mode' allows **multiple overlapping labels**.  Can be used as an **all-purporse text tagger** with the data format (index of first token, index of last token+1, label name). Zero based.<br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/spansclass.png)
 
