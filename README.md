@@ -8,9 +8,11 @@ No installation required.<br/>
 Download and unpack [**TagEditor.7z**](https://github.com/d5555/TagEditor/raw/master/TagEditor.7z)<br/>
 Run 'TagEditor.exe' in the main folder.
 
-### Usage
+### Demo
 
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/dep800.gif)
+
+### Usage
 
 &nbsp; Insert your text or open a text file and press Start tagging (or choose one of the options in Menu/Tools). Choose types of annotation and labels like in the screenshot below and press Ok. <br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/select.png)<br/>
