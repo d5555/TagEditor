@@ -27,7 +27,7 @@ If you don't have a pretrained model for a given language, select the language f
 
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/Menu_Mod.png)
 
->Try **[NeuralGym](https://github.com/d5555/NeuralGym)** to train spaCy model with your training data. 
+<!--- >Try **[NeuralGym](https://github.com/d5555/NeuralGym)** to train spaCy model with your training data. --->
 
 **Named Entities**<br/>
 First click on a label in the Tag Set pannel then select text in the main window. To delete assigned label from text just click on it. Create output data with char/token offset or BILUO / IOB scheme. It is allowed to create nested or overlapping tags. 
