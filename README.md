@@ -1,6 +1,6 @@
 ### TagEditor(v3.0.3) annotation tool
 
-TagEditor is a desktop application (tested on _Windows 10, 64-bit_) designed to annotate text for training with spaCy library.<br/>
+TagEditor is a desktop application (requires **_Windows 10, 64-bit_**) designed to annotate text for training with spaCy library.<br/>
 With TagEditor you can label **dependencies, parts of speech, Named entities, text categories and Coreference resolution** or create your customized training data.
 
 ### Installation
@@ -33,10 +33,11 @@ First click on a label in the Tag Set pannel then select text in the main window
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/ner.png) 
 
 
-Create dataset with selected items and save into txt or json file or print it on the screen.:<br/>
+Create dataset with selected items and save as **\*.spacy, \*.txt or \*.json** format or print it on the screen.:<br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/create_data.png)
 
 **POS tags**<br/>
+In this window you can edit POS tags (fine-grained) and also view coarse-grained pos tags and morphs.<br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/pos_pic.png)
 
 **Dependencies**<br/>
