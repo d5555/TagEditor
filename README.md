@@ -14,17 +14,17 @@ Run 'TagEditor.exe' in the main folder.
 
 ### Usage
 
-&nbsp; Insert your text or open a text file and press Start tagging (or choose one of the options in Menu/Tools). Choose types of annotation and labels like in the screenshot below and press Ok. 
+&nbsp; Insert your text or open a text file and press **Start tagging** (or choose one of the options in Menu/Tools). Choose type of annotation and labels like in the screenshot below and press Ok. 
 
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/select.png)<br/>
-Select a tag in TAG SET pannel then select a word to assign the tag. Select a head tag to assign dependency if you are working in the Dependencies window .<br/>
-&nbsp; Right-click on a word to edit, delete, insert word, merge or split sentences. 
-To merge sentences right-click on the first word of sentence. It is checked as **Sentence start**. Uncheck it and the sentence will merge with the previous sentence. <br/>
+Select a tag in **TAG SET pannel** then select a word to assign the tag. Select a head tag to assign dependency if you are working in the Dependencies window .<br/>
+&nbsp; To edit Doc or Tokens  - use Right-click on any word. It allows to  edit, delete, insert words or sentences, also merge or split sentences. 
+To merge sentences right-click on the first word of sentence. It is checked as **Sentence start**. Uncheck it and the sentence will merge with the previous sentence.<br/> &nbsp; To assign new paragraph use context menu or click on the sentence number on the left side. Or use button **Assign paragraphs** in the tab **Words** to assign paragraphs after new line symbols '\n' in text. <br/>
 &nbsp; To delete all newline characters and extra whitespaces in the text, select the tab **Words** and press **Remove Whitespaces**.<br/> 
 Press button **Create DATA** to create training data in "simple training style" or JSON. You can save it in text, json or spacy format ...<br/>
 **Save project** for future editing. **Load project** to continue where you left.
 
-If you don't have a pretrained model for a given language, select the language from the list for proper tokenization: 
+If you don't have a pretrained model for a given language, select the language from list for proper tokenization: 
 
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/Menu_Mod.png)
 
@@ -36,7 +36,7 @@ First click on a label in the Tag Set pannel then select text in the main window
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/ner.png) 
 
 
-Press button **Create data** , select items and save as **\*.spacy, \*.txt or \*.json** format or print it on the screen.:<br/>
+Press button **Create data** , select items and save as **\*.spacy, \*.txt or \*.json** format or print it on the screen. if you assigned paragraphs - select **Manually assigned paragraphs**<br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/create_data.png)
 
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/data_onscreen.png)
@@ -70,6 +70,8 @@ Use check button **Assign/unassign all** to assign/unassign all labels to all se
 For demo purporses the text classifier of this tool was trained on the IMDB dataset with labels 'POSITIVE NEGATIVE'<br/>
 https://spacy.io/usage/training#textcat<br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/cats.png)
+![alt text](https://github.com/d5555/TagEditor/blob/master/pics/cat_data.png)
+
 'Spans classification mode' allows **multiple overlapping labels**.  Can be used as an **all-purporse text tagger** with the data format (index of first token, index of last token+1, label name). Zero based.<br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/spansclass.png)
 
