@@ -40,7 +40,7 @@ First click on a label in the Tag Set pannel then select text in the main window
 
 Press button **Create data** , select items and save as **\*.spacy, \*.txt or \*.json** format or print it on the screen. if you assigned paragraphs - select **Manually assigned paragraphs**<br/>
 <!--- ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/create_data.png width=400) --->
-<img src="https://github.com/d5555/TagEditor/blob/master/pics/create_data.png" width="467" >
+<img src="https://github.com/d5555/TagEditor/blob/master/pics/create_data.png" width="350" >
 
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/data_onscreen.png)
 
