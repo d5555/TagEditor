@@ -21,14 +21,15 @@ Select a tag in **TAG SET pannel** then select a word to assign the tag. Select 
 &nbsp; To edit Doc or Tokens  - use Right-click on any word. It allows to  edit, delete, insert words or sentences, also merge or split sentences. 
 To merge sentences right-click on the first word of sentence. It is checked as **Sentence start**. Uncheck it and the sentence will merge with the previous sentence.<br/> &nbsp; To assign new paragraph use context menu or click on the sentence number on the left side. Or use button **Assign paragraphs** in the tab **Words** to assign paragraphs after new line symbols '\n' in text. <br/>
 &nbsp; To delete all newline characters and extra whitespaces in the text, select the tab **Words** and press **Remove Whitespaces**.<br/> 
-![alt text](https://github.com/d5555/TagEditor/blob/master/pics/words.png)
+<!---![alt text](https://github.com/d5555/TagEditor/blob/master/pics/words.png)--->
+<img src="https://github.com/d5555/TagEditor/blob/master/pics/words.png" width="700" >
 
 Press button **Create DATA** to create training data in "simple training style" or JSON. You can save it in text, json or spacy format ...<br/>
 **Save project** for future editing. **Load project** to continue where you left.
 
 If you don't have a pretrained model for a given language, select the language from list for proper tokenization: 
 
-![alt text](https://github.com/d5555/TagEditor/blob/master/pics/Menu_Mod.png)
+<img src="https://github.com/d5555/TagEditor/blob/master/pics/Menu_Mod.png" width="450" >
 
 <!--- >Try **[NeuralGym](https://github.com/d5555/NeuralGym)** to train spaCy model with your training data. --->
 
@@ -40,7 +41,7 @@ First click on a label in the Tag Set pannel then select text in the main window
 
 Press button **Create data** , select items and save as **\*.spacy, \*.txt or \*.json** format or print it on the screen. if you assigned paragraphs - select **Manually assigned paragraphs**<br/>
 <!--- ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/create_data.png width=400) --->
-<img src="https://github.com/d5555/TagEditor/blob/master/pics/create_data.png" width="350" >
+<img src="https://github.com/d5555/TagEditor/blob/master/pics/create_data.png" width="450" >
 
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/data_onscreen.png)
 
@@ -76,7 +77,8 @@ https://spacy.io/usage/training#textcat<br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/cat_data.png)
 
 'Spans classification mode' allows **multiple overlapping labels**.  Can be used as an **all-purporse text tagger** with the data format (index of first token, index of last token+1, label name). Zero based.<br/>
-![alt text](https://github.com/d5555/TagEditor/blob/master/pics/spansclass.png)
+<!---![alt text](https://github.com/d5555/TagEditor/blob/master/pics/spansclass.png) --->
+<img src="https://github.com/d5555/TagEditor/blob/master/pics/spansclass.png" width="700" >
 
 <!--- _Try **[NeuralGym](https://github.com/d5555/NeuralGym)** to train spaCy model with your training data._ <br/>  --->
 >To use your pretrained models with TagEditor or other spacy models,  acquire the full version of TagEditor. Please contact gitprojects5@gmail.com 
