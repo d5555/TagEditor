@@ -14,8 +14,7 @@ Run 'TagEditor.exe' in the main folder.
 
 ### Usage
 
-&nbsp; Insert your text or open a text file and press **Start tagging** (or choose one of the options in Menu/Tools). Choose type of annotation and labels like in the screenshot below and press Ok.<br/>
-Or you can start with loading your datasets in formats .spacy or .json (spacy v2).
+&nbsp; Insert your text or open a text file and press **Start tagging** (or choose one of the options in Menu/Tools). Choose type of annotation and labels like in the screenshot below and press Ok. Or you can start with loading your datasets in formats .spacy or .json (spacy v2).
 
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/select.png)<br/>
 Select a tag in **TAG SET pannel** then select a word to assign the tag. Select a head tag to assign dependency if you are working in the Dependencies window .<br/>
