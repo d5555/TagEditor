@@ -14,7 +14,8 @@ Run 'TagEditor.exe' in the main folder.
 
 ### Usage
 
-&nbsp; Insert your text or open a text file and press **Start tagging** (or choose one of the options in Menu/Tools). Choose type of annotation and labels like in the screenshot below and press Ok. 
+&nbsp; Insert your text or open a text file and press **Start tagging** (or choose one of the options in Menu/Tools). Choose type of annotation and labels like in the screenshot below and press Ok.<br/>
+Or you can start with loading your datasets in formats .spacy or .json (spacy v2).
 
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/select.png)<br/>
 Select a tag in **TAG SET pannel** then select a word to assign the tag. Select a head tag to assign dependency if you are working in the Dependencies window .<br/>
@@ -25,7 +26,10 @@ To merge sentences right-click on the first word of sentence. It is checked as *
 <img src="https://github.com/d5555/TagEditor/blob/master/pics/words.png" width="700" >
 
 Press button **Create DATA** to create training data in "simple training style" or JSON. You can save it in text, json or spacy format ...<br/>
-**Save project** for future editing. **Load project** to continue where you left.
+**Save project** for future editing. **Load project** to continue where you left.<br/>
+Also you can load your datasets in formats .spacy or .json (spacy v2). 
+
+<img src="https://github.com/d5555/TagEditor/blob/master/pics/MenuFile.png" width="700" >
 
 If you don't have a pretrained model for a given language, select the language from list for proper tokenization: 
 
