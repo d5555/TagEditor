@@ -19,7 +19,10 @@ Run 'TagEditor.exe' in the main folder.
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/select.png)<br/>
 Select a tag in **TAG SET pannel** then select a word to assign the tag. Select a head tag to assign dependency if you are working in the Dependencies window .<br/>
 &nbsp; To edit Doc or Tokens  - use Right-click on any word. It allows to  edit, delete, insert words or sentences, also merge or split sentences. 
-To merge sentences right-click on the first word of sentence. It is checked as **Sentence start**. Uncheck it and the sentence will merge with the previous sentence.<br/> &nbsp; To assign new paragraph use context menu or click on the sentence number on the left side. Or use button **Assign paragraphs** in the tab **Words** to assign paragraphs after new line symbols '\n' in text. <br/>
+To merge sentences right-click on the first word of sentence. It is checked as **Sentence start**. Uncheck it and the sentence will merge with the previous sentence.<br/> 
+<img src="https://github.com/d5555/TagEditor/blob/master/pics/Context.png" width="700" >
+
+&nbsp; To assign new paragraph use context menu or click on the sentence number on the left side. Or use button **Assign paragraphs** in the tab **Words** to assign paragraphs after new line symbols '\n' in text. <br/>
 &nbsp; To delete all newline characters and extra whitespaces in the text, select the tab **Words** and press **Remove Whitespaces**.<br/> 
 <!---![alt text](https://github.com/d5555/TagEditor/blob/master/pics/words.png)--->
 <img src="https://github.com/d5555/TagEditor/blob/master/pics/words.png" width="700" >
