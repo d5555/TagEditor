@@ -42,7 +42,7 @@ If you don't have a pretrained model for a given language, select the language f
 **Named Entities**<br/>
 First click on a label in the Tag Set pannel then select text in the main window. To delete assigned label from text just click on it. Create output data with char/token offset or BILUO / IOB scheme. It is allowed to create nested or overlapping tags if you use char/token offset. 
 
-![alt text](https://github.com/d5555/TagEditor/blob/master/pics/ner.png) 
+![alt text](https://github.com/d5555/TagEditor/blob/master/pics/ner1.png) 
 
 
 Press button **Create data** , select items and save as **\*.spacy, \*.txt or \*.json** format or print it on the screen. if you assigned paragraphs - select **Manually assigned paragraphs**<br/>
