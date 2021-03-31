@@ -82,7 +82,7 @@ In the Text Categories you can assign labels to paragraphs, sentences or to span
 Use check button **Assign/unassign all** to assign/unassign all labels to all sentences in one click. Then you can manually change True/False status of each label by clicking on the label or delete the label in the editor window.<br/>
 For demo purporses the text classifier of this tool was trained on the IMDB dataset with labels 'POSITIVE NEGATIVE'<br/>
 https://spacy.io/api/textcategorizer<br/>
-If you have a model with pretrained text classifier and want to classify paragraphs (instead of sentences or whole text), close the window **Text Categories**, assign paragraphs (because by default the whole text is one paragraph) and then press **tools** and in the tab  **Text Categories** select **paragraphs**. <br/>
+If you have a model with pretrained text classifier and want to classify paragraphs (instead of sentences or whole text), close the window **Text Categories**, assign paragraphs (because by default the whole text is one paragraph) and then press **tools** and in the tab  **Text Categories** select **Paragraph**. <br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/cats.png)
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/cat_data.png)
 
