@@ -41,7 +41,8 @@ If you don't have a pretrained model for a given language, select the language f
 
 **Named Entities**<br/>
 First click on a label in the Tag Set pannel then select text in the main window. To delete assigned label from text just click on it. Create output data with char/token offset or BILUO / IOB scheme. It is allowed to create nested or overlapping tags if you use char/token offset.<br/>
-Option **--annotate--** allows to switch models and overwrite existing labels in different modes. 
+Option **--Aannotate--** allows to switch models and overwrite existing labels in different modes. <br/>
+**TAG SET** window allows editing labels, adding new labels and their description, saving and uploading labels.  
 
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/ner1.png) 
 
