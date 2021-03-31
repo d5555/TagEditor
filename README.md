@@ -23,7 +23,7 @@ To merge sentences right-click on the first word of sentence. It is checked as *
 <img src="https://github.com/d5555/TagEditor/blob/master/pics/Context.png" width="700" >
 
 &nbsp; To assign new paragraph use context menu or click on the sentence number on the left side. Or use button **Assign paragraphs** in the tab **Words** to assign paragraphs after new line symbols '\n' in text. <br/>
-&nbsp; To delete all newline characters and extra whitespaces in the text, select the tab **Words** and press **Remove Whitespaces**.<br/> 
+&nbsp; To delete all newline characters and extra whitespaces in the text, select the tab **Words** and press **Remove Whitespaces**. All **Sentence starts** are highlighted with rose color and **whitespaces** - with yellow color.<br/> 
 <!---![alt text](https://github.com/d5555/TagEditor/blob/master/pics/words.png)--->
 <img src="https://github.com/d5555/TagEditor/blob/master/pics/words.png" width="700" >
 
