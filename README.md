@@ -33,7 +33,7 @@ Also you can load your datasets in formats .spacy (spaCy v3) or .json (spaCy v2)
 
 <img src="https://github.com/d5555/TagEditor/blob/master/pics/MenuFile.png" width="700" >
 
-If you don't have a pretrained model for a given language, select the language from list for proper tokenization: 
+If you don't have a pretrained model for a given language, select language from the list for proper tokenization: 
 
 <img src="https://github.com/d5555/TagEditor/blob/master/pics/Menu_Mod.png" width="450" >
 
