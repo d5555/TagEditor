@@ -1,7 +1,7 @@
 ### TagEditor(v3.0.5) annotation tool
 
-TagEditor is a desktop application (requires **_Windows 10, 64-bit_**) designed to annotate text for training with spaCy library.<br/>
-With TagEditor you can label **dependencies, parts of speech, Named entities, text categories and Coreference resolution** or create your customized training data.
+TagEditor is a desktop application (requires **_Windows 10, 64-bit_**) that allows you to quickly annotate text with the help of spaCy library.<br/>
+With TagEditor you can annotate **dependencies, parts of speech, Named entities, text categories and Coreference resolution**, create your customized annotated data or create a dataset in formats .json or .spacy for training with spaCy library. 
 
 ### Installation
 No installation required.<br/>
@@ -23,7 +23,7 @@ To merge sentences right-click on the first word of sentence. It is checked as *
 <img src="https://github.com/d5555/TagEditor/blob/master/pics/Context.png" width="700" >
 
 &nbsp; To assign new paragraph use context menu or click on the sentence number on the left side. Or use button **Assign paragraphs** in the tab **Words** to assign paragraphs after new line symbols '\n' in text. <br/>
-&nbsp; To delete all newline characters and extra whitespaces in the text, select the tab **Words** and press **Remove Whitespaces**.<br/> 
+&nbsp; To delete all newline characters and extra whitespaces in the text, select the tab **Words** and press **Remove Whitespaces**. All **Sentence starts** are highlighted with rose color and **whitespaces** - with yellow color.<br/> 
 <!---![alt text](https://github.com/d5555/TagEditor/blob/master/pics/words.png)--->
 <img src="https://github.com/d5555/TagEditor/blob/master/pics/words.png" width="700" >
 
@@ -33,16 +33,19 @@ Also you can load your datasets in formats .spacy (spaCy v3) or .json (spaCy v2)
 
 <img src="https://github.com/d5555/TagEditor/blob/master/pics/MenuFile.png" width="700" >
 
-If you don't have a pretrained model for a given language, select the language from list for proper tokenization: 
+If you don't have a pretrained model for a given language, select language from the list for proper tokenization: 
 
 <img src="https://github.com/d5555/TagEditor/blob/master/pics/Menu_Mod.png" width="450" >
 
 <!--- >Try **[NeuralGym](https://github.com/d5555/NeuralGym)** to train spaCy model with your training data. --->
 
 **Named Entities**<br/>
-First click on a label in the Tag Set pannel then select text in the main window. To delete assigned label from text just click on it. Create output data with char/token offset or BILUO / IOB scheme. It is allowed to create nested or overlapping tags if you use char/token offset. 
+First click on a label in the Tag Set pannel then select words in the main window that you want to assign label to. To delete assigned label just click on it in the editor window. Create output data with char/token offset or BILUO / IOB scheme. It is allowed to create nested or overlapping tags if you use char/token offset.<br/>
+If the option **NER search all** is on and you selected a new span - selected label will be assigned to all spans found in the text accordingly.<br/>
+Option **--Annotate--** allows to switch models and annotate on top of your already annotated text in different modes. This way you can compare two(or more) different models or just to annotate text using several models in tandem. <br/>
+**TAG SET** panel allows editing labels, adding new labels and their description, saving and uploading labels.  
 
-![alt text](https://github.com/d5555/TagEditor/blob/master/pics/ner.png) 
+![alt text](https://github.com/d5555/TagEditor/blob/master/pics/ner1.png) 
 
 
 Press button **Create data** , select items and save as **\*.spacy, \*.txt or \*.json** format or print it on the screen. if you assigned paragraphs - select **Manually assigned paragraphs**<br/>
@@ -79,6 +82,7 @@ In the Text Categories you can assign labels to paragraphs, sentences or to span
 Use check button **Assign/unassign all** to assign/unassign all labels to all sentences in one click. Then you can manually change True/False status of each label by clicking on the label or delete the label in the editor window.<br/>
 For demo purporses the text classifier of this tool was trained on the IMDB dataset with labels 'POSITIVE NEGATIVE'<br/>
 https://spacy.io/api/textcategorizer<br/>
+If you have a model with pretrained text classifier and want to classify paragraphs (instead of sentences or whole text), close the window **Text Categories**, assign paragraphs (because by default the whole text is one paragraph) and then press **tools** and in the tab  **Text Categories** select **Paragraph**. <br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/cats.png)
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/cat_data.png)
 
