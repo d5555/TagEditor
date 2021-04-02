@@ -18,7 +18,7 @@ Run 'TagEditor.exe' in the main folder.
 
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/select.png)<br/>
 Select a tag in **TAG SET pannel** then select a word to assign the tag. Select a head tag to assign dependency if you are working in the Dependencies window .<br/>
-&nbsp; To edit Doc or Tokens  - use Right-click on any word. It allows to  edit, delete, insert words or sentences, also merge or split sentences. 
+&nbsp; To edit Doc or Tokens  - use Right-click on any word. Context menu allows to  edit, delete, insert words or sentences, also merge or split sentences. 
 To merge sentences right-click on the first word of sentence. It is checked as **Sentence start**. Uncheck it and the sentence will merge with the previous sentence.<br/> 
 <img src="https://github.com/d5555/TagEditor/blob/master/pics/Context.png" width="700" >
 
@@ -29,7 +29,7 @@ To merge sentences right-click on the first word of sentence. It is checked as *
 
 Press button **Create DATA** to create training data in "simple training style" or JSON. You can save it in text, json or spacy format ...<br/>
 **Save project** for future editing. **Load project** to continue where you left.<br/>
-Also you can load your datasets in formats .spacy (spaCy v3) or .json (spaCy v2). 
+Also you can save and load your datasets in formats .spacy (spaCy v3) or .json (spaCy v2). 
 
 <img src="https://github.com/d5555/TagEditor/blob/master/pics/MenuFile.png" width="700" >
 
