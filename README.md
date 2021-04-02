@@ -29,7 +29,7 @@ To merge sentences right-click on the first word of sentence. It is checked as *
 
 Press button **Create DATA** to create training data in "simple training style" or JSON. You can save it in text, json or spacy format ...<br/>
 **Save project** for future editing. **Load project** to continue where you left.<br/>
-Also you can load your datasets in formats .spacy (spaCy v3) or .json (spaCy v2). 
+Also you can save and load your datasets in formats .spacy (spaCy v3) or .json (spaCy v2). 
 
 <img src="https://github.com/d5555/TagEditor/blob/master/pics/MenuFile.png" width="700" >
 
