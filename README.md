@@ -77,11 +77,14 @@ You can load data from PreCo dataset to TagEditor directly. Unzip  PreCo dataset
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/coref_annot.png)
 
 **Text Categories**<br/>
+https://spacy.io/api/textcategorizer<br/>
 In the Text Categories you can assign labels to paragraphs, sentences or to spans (see below).<br/>
 &nbsp; Select the score in the TAG SET pannel - True or False(i.e 1.0 or 0.0) and select a category label. Go to the editor window and click on sentence. Category and score will be added. You can easily **switch the score True/False** by just clicking on the score label in editor window. Supports multiple, non-mutually exclusive labels.<br/>
 Use check button **Assign/unassign all** to assign/unassign all labels to all sentences in one click. Then you can manually change True/False status of each label by clicking on the label or delete the label in the editor window.<br/>
-For demo purporses the text classifier of this tool was trained on the IMDB dataset with labels 'POSITIVE NEGATIVE'<br/>
-https://spacy.io/api/textcategorizer<br/>
+For demo purporses the text classifier of this tool was trained on the IMDB dataset with labels 'POSITIVE NEGATIVE'. The partial dataset converted to spacy format can be downloaded from here:<br/>
+
+https://github.com/d5555/textcat_dataset_IMDB<br/>
+
 If you have a model with pretrained text classifier and want to classify paragraphs (instead of sentences or whole text), close the window **Text Categories**, assign paragraphs (because by default the whole text is one paragraph) and then press **tools** and in the tab  **Text Categories** select **Paragraph**. <br/>
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/cats.png)
 ![alt text](https://github.com/d5555/TagEditor/blob/master/pics/cat_data.png)
